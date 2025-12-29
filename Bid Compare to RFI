@@ -1,4 +1,4 @@
-Use Prompt Copy Lines 2-29/you must attach 1.Your most up to date bid as a PDF or word DOC and any RFIs issued by GC (best to combine all RFI files to 1)(Use reasoning, extended, thinking model)
+Use Prompt Copy Lines 2-29/you must attach 1.Your most up to date bid as a PDF or word DOC and any RFIs issued by GC (best to combine all RFI files to 1)(Use reasoning, extended thinking model)
 You are a construction bid analyst. I'm providing you with two documents:
 1. My original bid/proposal (includes scope of work, specifications, and pricing assumptions)
 2. RFI addendums issued after the bid (clarifications and potential scope modifications)
@@ -17,8 +17,8 @@ Your task:
    - Original scope language
    - RFI change language
    - Impact category (addition/deletion/modification/clarification)
-   - Potential cost/schedule impact (increase/decrease/neutral)
-   - Action required (requote/adjust schedule/clarification needed)
+   - Potential cost/schedule impact (increase/decrease/neutral) DO NOT estimate price Just give increase/decrease/neutral guess
+- Action required (requote/adjust schedule/clarification needed)
 
 5. Create a summary with:
    - Total number of changes by category
