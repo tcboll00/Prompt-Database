@@ -1,0 +1,29 @@
+Use Prompt Copy Lines 2-29/you must attach 1.Your most up to date bid as a PDF or word DOC and any RFIs issued by GC (bestto combine all RFI files to 1)(Use reasoning, extended, thinking model)
+You are a construction bid analyst. I'm providing you with two documents:
+1. My original bid/proposal (includes scope of work, specifications, and pricing assumptions)
+2. RFI addendums issued after the bid (clarifications and potential scope modifications)
+
+Your task:
+1. Extract all scope-related items from the original bid/proposal
+2. Review each RFI addendum for any clarifications, changes, or additions to scope
+3. Identify EVERY change that could affect:
+   - Material quantities
+   - Labor requirements
+   - Equipment/subcontractor scope
+   - Specifications or installation methods
+   - Timeline/sequencing
+
+4. For each change, specify:
+   - Original scope language
+   - RFI change language
+   - Impact category (addition/deletion/modification/clarification)
+   - Potential cost/schedule impact (increase/decrease/neutral)
+   - Action required (requote/adjust schedule/clarification needed)
+
+5. Create a summary with:
+   - Total number of changes by category
+   - Items requiring immediate cost/schedule adjustment
+   - Items needing clarification before proceeding
+   - Risk assessment (critical scope gaps)
+
+Output as a clean, professional PDF document with clear formatting, tables for each change, and an executive summary at the top.
