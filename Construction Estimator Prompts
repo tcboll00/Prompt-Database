@@ -1,0 +1,102 @@
+Use these prompts with your project documents attached (plans, specs, addenda, RFIs, geotech, schedule, and bid form).
+
+1. You are a senior construction estimator. Build a detailed quantity takeoff for [trade scope] from the attached drawings/specs. Output by CSI section, floor/area, and drawing detail reference.
+2. Review the full bid package and create a scope checklist for [trade]. Include inclusions, exclusions, assumptions, alternates, and clarifications.
+3. Compare plan set [Issue Date A] vs [Issue Date B]. List all changes that impact quantity, labor, equipment, and productivity for [trade].
+4. Extract all specification requirements for [trade] and convert into a pricing checklist with measurable pay items.
+5. Identify every “by others,” “NIC,” and “owner furnished” note in the documents and flag potential scope gaps.
+6. Produce a labor-hour estimate for [trade scope] using crew-based logic. Show assumptions, crew mix, and production rates.
+7. Build a material cost breakdown for [trade] with waste factors by material type and rationale.
+8. Create an equipment estimate for [scope] including duration, utilization, mobilization, and standby risk.
+9. Review civil/site drawings and quantify earthwork cut/fill, export/import, and compaction needs with risk notes.
+10. Generate a drywall estimate by wall type, height band, and fire rating from plans/specs.
+11. Quantify concrete scope: formwork, rebar tonnage, concrete volume, embeds, and finishing by area/element.
+12. Build a structural steel estimate framework including tonnage categories, connections, deck, and erection assumptions.
+13. Produce an electrical estimate checklist: feeders, branch, devices, lighting, controls, and testing/commissioning.
+14. Produce a plumbing estimate checklist: domestic water, sanitary, storm, gas, fixtures, and insulation/supports.
+15. Produce an HVAC estimate checklist: ductwork, piping, equipment, controls, TAB, and commissioning.
+16. Analyze architectural finish schedules and generate a finish takeoff matrix by room type.
+17. Convert door/hardware schedules into a pricing bill by opening type and hardware set complexity.
+18. Quantify roofing scope by system type, insulation thickness, edge metal, penetrations, and warranty tier.
+19. Create a masonry estimate by wall type, veneer, reinforcement, flashing, and access requirements.
+20. Quantify flooring scope by material type, substrate prep requirements, transitions, and phasing constraints.
+21. Review geotechnical report and identify cost impacts to foundations, slab prep, dewatering, and unsuitable soils.
+22. Extract temporary works requirements (hoarding, protection, temporary utilities, shoring) and build a cost checklist.
+23. Build a general conditions estimate tied to project duration, staffing, site logistics, and phasing plan.
+24. Create a permit/inspection/testing allowance matrix from jurisdictional and spec requirements.
+25. Identify long-lead items and propose procurement timing with escalation risk commentary.
+26. Review all alternates in the bid docs and provide separate estimate buckets with scope boundaries.
+27. Evaluate additive/deductive alternates and summarize probable labor and material swing by alternate.
+28. Build a bid leveling template for comparing subcontractor quotes apples-to-apples.
+29. Normalize these 3 subcontractor quotes and identify exclusions, hidden qualifiers, and best-value recommendation.
+30. Compare vendor quotes to spec basis-of-design; flag noncompliance and equivalent-submission risk.
+31. Review all addenda and produce a delta log of scope and pricing impacts.
+32. Parse RFI log and identify RFIs that may change quantity, means/methods, sequencing, or responsibility.
+33. Create a “known unknowns” risk register for this estimate with contingency guidance by risk category.
+34. Build a contingency recommendation model: design maturity, site risk, market volatility, and schedule pressure.
+35. Assess escalation exposure by commodity (steel, copper, concrete, fuel) and suggest contract protections.
+36. Identify opportunities for value engineering that preserve performance while reducing installed cost.
+37. Propose constructability improvements that reduce labor-hours or rework risk in [trade].
+38. Review details for coordination conflicts (architectural/structural/MEP) that could cause change orders.
+39. Generate a bid clarifications letter draft listing assumptions, exclusions, and unresolved scope questions.
+40. Build an inclusions/exclusions table suitable for final proposal submission.
+41. Validate unit price logic for [scope item] and benchmark against internal historical ranges.
+42. Convert historical project data into a conceptual estimate for [new project type] with confidence bands.
+43. Produce a conceptual cost per SF model by major system for early design budgeting.
+44. Create a schematic-design estimate and identify missing information required for DD-level confidence.
+45. Build a design-development estimate with variance analysis versus prior schematic budget.
+46. Create a GMP support estimate package with assumptions log and allowance structure.
+47. Generate quantity growth factors from 30% to 60% to 90% design based on this project profile.
+48. Build a location factor adjustment for [city/region] and explain labor/material implications.
+49. Analyze logistics constraints (urban site, laydown limits, crane access) and cost implications.
+50. Price schedule acceleration options (overtime, second shift, prefabrication) and risk tradeoffs.
+51. Estimate weather impact allowances by season and trade sensitivity for this schedule.
+52. Create a phasing estimate for occupied renovation, including infection control/noise/night work impacts.
+53. Evaluate demolition scope for hazardous materials, selective demo complexity, and disposal assumptions.
+54. Extract firestopping and penetration sealing scope across all trades and quantify responsibility boundaries.
+55. Build a commissioning and closeout estimate: testing, O&M docs, training, punch, and warranty callbacks.
+56. Generate a subcontract buyout strategy by package size, bid coverage risk, and procurement sequence.
+57. Score bid day risk by trade based on quote count, volatility, and scope clarity.
+58. Create a last-minute quote comparison summary with carry numbers and recommendation.
+59. Review proposal terms and identify commercial risks: pay terms, LDs, indemnity, bonds, retainage.
+60. Quantify bonding/insurance impacts for this project and identify assumptions needing confirmation.
+61. Build a change-order pricing template aligned with baseline estimate structure.
+62. Create a labor burden calculator for [region] including taxes, benefits, small tools, and supervision.
+63. Evaluate productivity assumptions against site conditions and propose adjusted production rates.
+64. Generate crew loading curves by month from estimate quantities and sequence assumptions.
+65. Build a cash flow curve from estimated costs and schedule milestones.
+66. Produce a procurement log with bid packages, issue dates, due dates, and decision deadlines.
+67. Create a quality-control cost allowance matrix tied to spec-driven mockups and testing.
+68. Quantify sustainability-related scope (recycled content, EPDs, waste diversion, low-emitting materials).
+69. Identify LEED or green-building documentation tasks that should be included in cost.
+70. Review acoustic requirements and identify hidden cost drivers in assemblies and sealants.
+71. Review envelope details and identify waterproofing continuity risks with probable cost impacts.
+72. Quantify specialty equipment supports/housekeeping pads/embedded items coordination scope.
+73. Produce an above-ceiling coordination risk allowance for congested MEP zones.
+74. Build a prefab vs stick-build comparison for [scope], including labor, schedule, and logistics impacts.
+75. Generate a target-value design estimate with cost caps by system and variance triggers.
+76. Create an estimate QA/QC checklist and run it against this takeoff for error detection.
+77. Audit this takeoff for duplicate quantities, missing scope, and unit inconsistencies.
+78. Reconcile estimate vs bid form line items and map each scope element to the correct line.
+79. Build a bid recap sheet with base bid, alternates, allowances, contingencies, and markups.
+80. Separate direct costs, indirect costs, overhead, and fee with clear calculation logic.
+81. Validate tax treatment by cost category and identify items commonly misclassified.
+82. Build a markups waterfall (freight, waste, labor burden, supervision, OH&P) with transparent math.
+83. Produce a sensitivity analysis showing cost impact of ±10% labor productivity and key material swings.
+84. Run a Monte Carlo-style risk narrative (qualitative) for top 10 estimate uncertainties.
+85. Create a bid/no-bid risk memo based on scope clarity, schedule, competition, and resource capacity.
+86. Summarize all unanswered RFIs/submittal dependencies that create pricing uncertainty.
+87. Draft bidder questions to close information gaps before bid day.
+88. Generate a scope handoff package from estimating to project management with assumptions traceability.
+89. Build a post-bid interview prep brief explaining major estimate drivers and qualifications.
+90. Compare awarded subcontract values to estimate and explain major buyout variances.
+91. Create a lessons-learned template to capture estimate misses and wins after project start.
+92. Convert this estimate into a cost-loaded schedule framework for project controls.
+93. Build a cost code structure aligned to estimate breakdown for field tracking.
+94. Identify scope likely to become change orders due to ambiguous documents; rank by probability.
+95. Produce a claims-defense documentation checklist for estimate assumptions and clarifications.
+96. Create a turnkey proposal narrative from the estimate: approach, milestones, risks, and value adds.
+97. Draft executive summary for client: total cost drivers, alternates, options, and recommendation.
+98. Build a one-page estimate snapshot: top 15 cost items, assumptions, and decision points.
+99. Translate this technical estimate into owner-friendly language without losing commercial clarity.
+100. Review the full estimate package and provide a red-team critique before final submission.
