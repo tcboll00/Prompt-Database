@@ -677,7 +677,7 @@
     editor.hidden = false;
     placeEditor();
     draw();
-    setTimeout(() => { editor.focus(); editor.select(); }, 0);
+    setTimeout(() => { editor.focus(); if (isNew) editor.select(); else editor.setSelectionRange(editor.value.length, editor.value.length); }, 0);
   }
   function placeEditor() {
     const d = doc(), m = S.editing;
