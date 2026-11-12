@@ -1,0 +1,44 @@
+name: Build Markline for macOS
+
+on:
+  push:
+    branches: ["claude/**", "main"]
+    paths: ["Markline/**", ".github/workflows/build-mac.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build universal app
+        run: |
+          xcodebuild -project Markline/Markline.xcodeproj -target Markline -configuration Release \
+            SYMROOT="$PWD/build" ARCHS="arm64 x86_64" ONLY_ACTIVE_ARCH=NO build
+          lipo -info build/Release/Markline.app/Contents/MacOS/Markline
+          codesign --verify --deep --verbose=2 build/Release/Markline.app
+          ls build/Release/Markline.app/Contents/Resources
+
+      - name: Launch check
+        run: |
+          open build/Release/Markline.app
+          sleep 12
+          if pgrep -x Markline >/dev/null; then echo "Markline is running"; else echo "Markline is NOT running"; exit 1; fi
+          log show --last 30s --predicate 'process == "Markline"' --style compact | tail -n 40 || true
+          pkill -x Markline || true
+
+      - name: Package DMG
+        run: |
+          mkdir dmg
+          cp -R build/Release/Markline.app dmg/
+          ln -s /Applications dmg/Applications
+          hdiutil create -volname Markline -srcfolder dmg -ov -format UDZO Markline.dmg
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Markline-dmg
+          path: Markline.dmg
